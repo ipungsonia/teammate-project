@@ -14,18 +14,36 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #76D6DC;
+  height: 60px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+
+.Head-comp {
+  padding: 0 20px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+h4 {
+  color: #999999;
+}
+
+button {
+  background-color: #76D6DC;
+  color: black;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 @keyframes App-logo-spin {
